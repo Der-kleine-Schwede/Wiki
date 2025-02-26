@@ -1,6 +1,15 @@
 # Client 
 
 # Api/Backend
+## Common-Klasse
+    Kontext
+        Hier sollten Methoden, Klassen und Konstanten untergebracht werden, die von anderen Klassen benutzt werden.
+    
+    TODO:
+        - Klasse Problem aus ProblemSolver sollte hierhin verschoben werden.
+        - Klasse Kästchen für ein einzelnes Kästchen in der Kreuzworträtsel-Matrix sollte hier definiert werden. In dieses Kästchen soll unter anderem Info über eingetragene Buchstaben und bei Fragestellungen die Pfeilrichtung und ggf. betroffene Kästchen notiert werden.
+        - Klasse für das gesamte Kreuzworträtsel sollte hier definiert sein. Hier sollte eine Zweidimensionale Matrix bereitgestellt werden, die Kästchen beinhaltet.
+
 ## Backend-Datenbank
     Kontext
         Eine Datenbank soll bereitgestellt werden, die mindestens folgende Spalten besitzt: Frage aus Kreuzworträtseln, zugehörige Antwort.
@@ -38,3 +47,8 @@
 # Python
 
 # Lessons Learned
+- Für jeden Schulblock sollte pro Person ein Ziel gesteckt werden, an dem diese arbeiten wird, welche auch in dem Block erledigt werden sollte. Dabei sollte die Aufgabe so kleinteilig wie möglich definiert werden.
+
+- Zu Anfang wurde zu diesem Projekt ein Klassendiagramm erstellt. Da zwischen jedem Schulblock viel Zeit liegt, in der man nicht an dem Projekt arbeitet, sollte sich strikt an die vorgegebene Doku gehalten werden. Gegebenenfalls kann dazu das Klassendiagramm jeden Schulblock gepflegt werden, an dem man sich im neuen Schulblock orientieren kann.
+
+- Im Verlauf des Projektes kann es vorkommen, dass sich ein benötigtes Arbeitspacket verzögert. Um trotzdem das eigene Arbeitspacket zu testen, sollte falls möglich eine Testklasse für das eigene Arbeitspacket/Klasse gepflegt werden, welche die Ausführung simuliert und passender Parameter bereitstellt.
