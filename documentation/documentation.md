@@ -46,6 +46,8 @@
 
 # Python
 
+# Plan
+
 # Lessons Learned
 - Für jeden Schulblock sollte pro Person ein Ziel gesteckt werden, an dem diese arbeiten wird, welche auch in dem Block erledigt werden sollte. Dabei sollte die Aufgabe so kleinteilig wie möglich definiert werden.
 
